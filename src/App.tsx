@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import SeatingConfig from './components/SeatingConfig/SeatingConfig.lazy';
-import Signin from './components/Signin/Signin.lazy';
+import './App.scss';
+import SeatingConfig from './pages/SeatingConfig/SeatingConfig.lazy';
+import Signin from './pages/Signin/Signin.lazy';
 
 function App() {
   return (
